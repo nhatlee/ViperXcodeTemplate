@@ -6,6 +6,6 @@ final class ___VARIABLE_productName___ViewController: UIViewController {
 
 }
 
-extension ___VARIABLE_productName___View: ___VARIABLE_productName___PresenterDelegate {
+extension ___VARIABLE_productName___ViewController: ___VARIABLE_productName___PresenterDelegate {
     // TODO:
 }

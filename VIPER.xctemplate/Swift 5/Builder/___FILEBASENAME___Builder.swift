@@ -1,6 +1,7 @@
 import Foundation
+import UIKit
 
-class ___VARIABLE_productName___Builder: ___VARIABLE_productName___BuilderProtocol {
+final class ___VARIABLE_productName___Builder: ___VARIABLE_productName___BuilderProtocol {
     func build() -> UIViewController {
         let service = ZPCashierService()
         let interactor = ___VARIABLE_productName___Interactor(service: service)
