@@ -11,3 +11,7 @@ final class ___VARIABLE_productName___Presenter: ___VARIABLE_productName___Prese
     }
 
 }
+
+extension ___VARIABLE_productName___Presenter: ___VARIABLE_productName___InteractorDelegate {
+    // TODO
+}

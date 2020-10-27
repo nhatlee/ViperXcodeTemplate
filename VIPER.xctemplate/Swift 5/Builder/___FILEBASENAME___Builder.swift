@@ -7,6 +7,8 @@ class ___VARIABLE_productName___Builder: ___VARIABLE_productName___BuilderProtoc
         let router = ___VARIABLE_productName___Router()
         let presenter = ___VARIABLE_productName___Presenter(interactor: interactor, router: router)
         let view = ___VARIABLE_productName___ViewController()
+        presenter.delegate = view
+        interactor.delegate = presenter
         view.presenter = presenter
         return view
     }
