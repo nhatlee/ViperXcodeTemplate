@@ -2,7 +2,16 @@ import UIKit
 
 final class ___VARIABLE_productName___ViewController: UIViewController {
         // MARK: - VIPER Stack
-        weak var presenter: ___VARIABLE_productName___PresenterProtocol?
+        let presenter: ___VARIABLE_productName___PresenterProtocol
+    
+    init(presenter: ___VARIABLE_productName___PresenterProtocol) {
+        self.presenter = presenter
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
 }
 
